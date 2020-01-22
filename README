@@ -1,1 +1,24 @@
+MODULO 1
 
+1º exercício:
+
+<html>
+    <head>
+        <title>Exercicio 1</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <script>
+            var endereço = {
+                rua: "Rua dos pinheiros",
+                numero: 1293,
+                bairro: "Centro",
+                cidade: "São Paulo",
+                uf: "SP"
+            };
+
+            console.log("O usuário mora em " + endereço.cidade + "/" + endereço.uf + ", " + "no Bairro " + endereço.bairro + ", " + "na rua " + endereço.rua + " com " + "n° " + endereço.numero);
+        </script>
+    <body>
+</html>
