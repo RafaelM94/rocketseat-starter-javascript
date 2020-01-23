@@ -120,3 +120,33 @@ MODULO 1
 </html>
 
 5º Exercicio:
+
+<html>
+    <head>
+        <title>Exercicio 5</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <script>  
+
+            var usuarios = [
+                {   nome: "Diego",
+                    habilidades: ["Javascript", "ReactJS", "Redux"]
+                },
+                {   nome: "Gabriel",
+                    habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+                }
+            ];
+            
+           function users(usuarios){
+                for(let users of usuarios){
+                    console.log('O ' + users.nome + ' possui as habilidades ' + users.habilidades + '.');
+                }
+            }
+
+            users(usuarios);
+           
+        </script>
+    <body>
+</html>
