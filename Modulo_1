@@ -110,11 +110,6 @@ MODULO 1
             var anoEstudo = 7;
             console.log (experiência (anoEstudo));
 
-            // De 0-1 ano: Iniciante
-            // De 1-3 anos: Intermediário
-            // De 3-6 anos: Avançado
-            // De 7 acima: Mestre Jedi
-
         </script>
     <body>
 </html>
